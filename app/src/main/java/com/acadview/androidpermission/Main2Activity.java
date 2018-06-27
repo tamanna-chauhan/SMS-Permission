@@ -20,7 +20,7 @@ public class Main2Activity extends AppCompatActivity {
         OTPText = findViewById(R.id.otp);
         OTPBtn = findViewById(R.id.OTPbtn);
 
-        final String OTP = getIntent().getStringExtra("OTP");
+        final String OTP = getIntent().getStringExtra("OTP_Number");
 
         final String SendOTP = String.valueOf(OTP);
 

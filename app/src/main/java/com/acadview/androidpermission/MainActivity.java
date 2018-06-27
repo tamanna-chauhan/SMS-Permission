@@ -17,7 +17,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-   private EditText Number,Message;
+   private EditText Number;
    private Button Send;
 
    private  static  final int REQUEST_CODE_SMS = 101;
